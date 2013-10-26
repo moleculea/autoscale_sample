@@ -52,7 +52,7 @@ scale_down_policy = as_conn.get_all_policies(
 # Monitor on a specific instance
 alarm_dimensions = {"InstanceId": "your_instance_id"}
 
-# Monitor instances within the auto scaling group cluster
+# Monitor instances within the Auto Scaling group cluster
 alarm_dimensions_as = {"AutoScalingGroupName": as_name}
 
 # Create metric alarms
